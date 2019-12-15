@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "outDir": "./build",
+    "rootDir": "src",
+
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": false,
+    "composite": false,
+    "removeComments": true,
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
