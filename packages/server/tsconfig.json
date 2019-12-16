@@ -2,6 +2,10 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "lib": ["es6", "es2017"],
-    "module": "commonjs"
-  }
+    "module": "commonjs",
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "./build"
+  },
+  "include": ["./src/**/*.ts"]
 }

@@ -1,6 +1,7 @@
 {
   "name": "@monorepo1/server",
   "version": "0.0.1",
+  "license": "MIT",
   "description": "Awesome project developed with TypeORM.",
   "devDependencies": {
     "@types/express": "^4.17.2",
@@ -16,6 +17,8 @@
     "typeorm": "0.2.21"
   },
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
   }
 }

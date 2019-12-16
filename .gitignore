@@ -134,6 +134,7 @@ public/
 # Ignore all local history of files
 .history
 
+### Build file ###
 build/
 
 # End of https://www.gitignore.io/api/macOS,VisualStudioCode,node

@@ -2,9 +2,6 @@
   "compilerOptions": {
     "target": "es6",
     "moduleResolution": "node",
-    "baseUrl": ".",
-    "outDir": "./build",
-    "rootDir": "src",
 
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
@@ -18,11 +15,13 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
 
-    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
     "noUnusedLocals": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
   "exclude": ["node_modules"]
 }
