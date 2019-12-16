@@ -2,7 +2,7 @@
   "type": "postgres",
   "host": "localhost",
   "port": 5432,
-  "username": "test",
+  "username": "pedropmedina",
   "password": "test",
   "database": "monorepo1_db",
   "synchronize": true,

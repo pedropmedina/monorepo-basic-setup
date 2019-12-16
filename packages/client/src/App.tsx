@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App: React.FC = () => {
-  return <div>This project uses react wtih typescript</div>;
+  return <div>Hi there</div>;
 };
 
 export default App;
